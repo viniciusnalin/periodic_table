@@ -1,0 +1,239 @@
+
+#estilo1 {
+ margin-left: 20px;
+}
+
+#estilo1 th, #estilo td {
+border: 3px solid #000000;
+padding: 2px;
+line-height: 0.5;
+height: 6px;
+max-width: 45px;
+min-width: 100px;
+font-family: Arial black helvetica,sans-serif;
+font-size: 19px;
+
+}
+#estilo2{
+ margin-left: 145px;
+}
+
+#estilo2 th, #estilo td {
+border: 2px solid #7B68EE;
+padding: 8px;
+}
+#estilo4{
+ margin-left: 145px;
+}
+
+#estilo4 th, #estilo td {
+border: 2px solid #000000;
+padding: 9px;
+max-width: 45px;
+min-width: 85px;
+font-family: Arial black helvetica,sans-serif;
+font-size: 19px;
+
+}
+
+div{display: inline-block;}
+
+div.b{
+	margin-left: -25px;
+}
+div.c{
+	margin-left: -25px;
+}
+h5{
+	line-height: 0.1;
+}
+p{
+	line-height: 0.1;
+  font-size: 20px;
+}
+p.pm{
+  line-height: 0.1;
+  font-size: 15px;
+}
+
+p.a{
+	font-size: 15px;
+}
+ th.roxinho {
+ 	cursor: pointer;
+ background-color: MediumPurple;
+  color: black;
+  transition: transform 0.3s;
+  transform: translateX(0) scale(1.0);
+}
+
+
+th.roxinho:hover,
+th.roxinho:focus {
+  background:  MediumPurple;
+  transform: translateX(0) scale(0.8);
+}
+th.vermelho {
+     cursor: pointer;
+ background-color: tomato;
+  color: black;
+  transition: transform 0.3s;
+  transform: translateX(0) scale(1.0);
+}
+
+th.vermelho:hover,
+th.vermelho:focus {
+  background:  tomato;
+  transform: translateX(0px) scale(0.8);
+
+}
+th.laranja {
+     cursor: pointer;
+ background-color: darkorange;
+  color: black;
+  transition: transform 0.3s;
+  transform: translateX(0) scale(1.0);
+}
+
+th.laranja:hover,
+th.laranja:focus {
+  background:  darkorange;
+  transform: translateX(0px) scale(0.8);
+
+}
+th.amarelo {
+     cursor: pointer;
+ background-color: yellow;
+  color: black;
+  transition: transform 0.3s;
+  transform: translateX(0) scale(1.0);
+}
+
+th.amarelo:hover,
+th.amarelo:focus {
+  background:  yellow;
+  transform: translateX(0px) scale(0.8);
+
+}
+th.azul {
+     cursor: pointer;
+ background-color: Dodgerblue;
+  color: black;
+  transition: transform 0.3s;
+  transform: translateX(0) scale(1.0);
+}
+
+th.azul:hover,
+th.azul:focus {
+  background:  Dodgerblue;
+  transform: translateX(0px) scale(0.8);
+
+}
+th.azul_claro {
+     cursor: pointer;
+ background-color: #00BFFF;
+  color: black;
+  transition: transform 0.3s;
+  transform: translateX(0) scale(1.0);
+}
+
+th.azul_claro:hover,
+th.azul_claro:focus {
+  background:  #00BFFF;
+  transform: translateX(0px) scale(0.8);
+
+}
+th.roxo {
+     cursor: pointer;
+ background-color: #D8BFD8 ;
+  color: black;
+  transition: transform 0.3s;
+  transform: translateX(0) scale(1.0);
+}
+
+th.roxo:hover,
+th.roxo:focus {
+  background: #D8BFD8;
+  transform: translateX(0px) scale(0.8);
+
+}
+
+th.cinza_claro {
+     cursor: pointer;
+ background-color:  #C0C0C0 ;
+  color: black;
+  transition: transform 0.3s;
+  transform: translateX(0) scale(1.0);
+}
+
+th.cinza_claro:hover,
+th.cinza_claro:focus {
+  background:  #C0C0C0;
+  transform: translateX(0px) scale(0.8);
+
+}
+th.cinza {
+     cursor: pointer;
+ background-color:  Gray ;
+  color: black;
+  transition: transform 0.3s;
+  transform: translateX(0) scale(1.0);
+}
+
+th.cinza:hover,
+th.cinza:focus {
+  background:Gray;
+  transform: translateX(0px) scale(0.8);
+
+}
+th.verde{
+     cursor: pointer;
+ background-color: limegreen;
+  color: black;
+  transition: transform 0.3s;
+  transform: translateX(0) scale(1.0);
+}
+
+th.verde:hover,
+th.azul:focus {
+  background:limegreen;
+  transform: translateX(0px) scale(0.8);
+
+}
+
+.text{
+font-family: "Montserrat", sans-serif;
+font-weight: 200;
+font-size: 30px;
+color: #000;
+border: 3px solid #000;
+padding: 7px;  
+height: 35px;
+width: 350px;
+padding: 12px;
+cursor: pointer;
+}
+
+.gradient{
+  background: linear-gradient(180deg, #F4F4F2, #E8E8E8, #BBBFCA, #495464);
+  background-size: 300%, 200%;
+  animation: colors 5s ease infinite;
+}
+@keyframes colors{
+  0%{
+    background-position: 0% 50%;
+  }
+
+  50%{
+    background-position: 100% 50%;
+  }
+
+  100%{
+    background-position: 0% 50%;
+  }
+}
+
+#legenda{
+  width: 500px;
+  font-size: 30px;
+}
